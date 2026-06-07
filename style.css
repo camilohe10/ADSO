@@ -1,0 +1,37 @@
+/* Estilo general para toda la pagina */
+body {
+font-family: arial, sans-serif;
+line-height: 1.6;
+margin: 20px;
+background-color: #f4f4f4; /* gris suave de fondo*/
+color: #333;
+}
+
+/* Estlo para encabezado*/
+h1, h2, h3, h4 {
+    color: #0056b3; /* azul profesional*/
+}
+
+/* El estilo de botones */
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: #f4f4f4;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.boton:hover {
+    background-color: #003d82;
+}
+
+/* conotendero para que los textos no se vean pegados*/
+section {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
